@@ -1,0 +1,1 @@
+To make the new hostname permanent, you need to edit the /etc/hostname and /etc/hosts files. Then execute again: hostname NEW_HOSTNAME.

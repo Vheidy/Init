@@ -1,0 +1,1 @@
+nslookup slash16.org | head -n1 | tr '\t' ' ' | cut -d ' ' -f3

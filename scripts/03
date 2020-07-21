@@ -1,0 +1,2 @@
+#!/bin/sh
+sudo curl -4 wttr.in/Moscow

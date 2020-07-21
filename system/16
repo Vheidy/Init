@@ -1,0 +1,1 @@
+Cron service allows you to perform certain tasks on a regular schedule. In order to add a command, you need to edit the file /etc/crontab.

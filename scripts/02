@@ -1,0 +1,14 @@
+#!/bin/sh
+str=$( who | grep -wc "$1")
+if [ ${#} -eq 1 ]
+then
+	if [ $str \> "0" ]
+	then
+	sudo killall -9 -u $1
+	sudo deluser $1
+	else
+	echo "user $1 not found"
+	fi
+else 
+	echo "usage: ./02 [NAME_USER]"
+fi

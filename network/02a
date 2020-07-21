@@ -1,0 +1,1 @@
+ifconfig | grep 'broadcast ' | rev | sed 's/ /:/' | cut -d: -f1 | rev
